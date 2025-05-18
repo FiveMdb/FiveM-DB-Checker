@@ -794,7 +794,7 @@ export const exampleReports: ReportData[] = [
   serverImage: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
   },
   { 
-    id: 58,
+    id: "58",
     serverName: "SPACE RolePlay 3.0  ",
     connectionCode: "/dlgap3",
     ownerProfile: "https://forum.cfx.re/u/Tianshao999",
@@ -809,7 +809,7 @@ export const exampleReports: ReportData[] = [
     maxPlayers: 200
   },
   {
-    id: 59,
+    id: "59",
     serverName: "三叶TreFoil RP4.0丨登陆器进服丨整顿重来丨不权限丨极致优化丨顶尖玩法",
     connectionCode: "/r8rrpg",
     ownerProfile: "https://forum.cfx.re/u/sansan7777",
@@ -824,7 +824,7 @@ export const exampleReports: ReportData[] = [
     maxPlayers: 200
   },
   {
-    id: 60,
+    id: "60",
     serverName: "魔都2.0>新人2000万>组队副本>QQ群386396772>极致玩法>奖励丰富>结婚系统>宠物系统>",
     connectionCode: "/47k9ko",
     ownerProfile: "https://forum.cfx.re/u/wansi111",
@@ -839,7 +839,7 @@ export const exampleReports: ReportData[] = [
     maxPlayers: 200
   },
   {
-    id: 61,
+    id: "61",
     serverName: "夜玫瑰｜招团队入驻有扶持",
     connectionCode: "/q6lgy6",
     ownerProfile: "https://forum.cfx.re/u/Foxlyy",
@@ -854,7 +854,7 @@ export const exampleReports: ReportData[] = [
     maxPlayers: 200
   },
   {
-    id: 62,
+    id: "62",
     serverName: "英雄 半RP 进群下载登录器 Q群632400909 KOOK 166666",
     connectionCode: "/7z7dqv",
     ownerProfile: "https://forum.cfx.re/u/lianming1",
@@ -869,7 +869,7 @@ export const exampleReports: ReportData[] = [
     maxPlayers: 200
   },
   {
-    id: 63,
+    id: "63",
     serverName: "Devaus älpee  SIGMA👑",
     connectionCode: "/kydvg7",
     ownerProfile: "https://forum.cfx.re/u/lussu62",
@@ -884,7 +884,7 @@ export const exampleReports: ReportData[] = [
     maxPlayers: 200
   },
   {
-    id: 64,
+    id: "64",
     serverName: "曼德拉Mandela 半RP角色扮演 1.0 进群过白名单 QQ群：231926901",
     connectionCode: "/kkgpg6",
     ownerProfile: "https://forum.cfx.re/u/TangYINN",
@@ -899,7 +899,7 @@ export const exampleReports: ReportData[] = [
     maxPlayers: 200
   },
   {
-    id: 65,
+    id: "65",
     serverName: "达芬奇-半R-无权限-无管理-纯玩家服务器-免白名单-无需下载器-Q群:216231015",
     connectionCode: "/d7rzkd",
     ownerProfile: "https://forum.cfx.re/u/BB9999",
@@ -914,7 +914,7 @@ export const exampleReports: ReportData[] = [
     maxPlayers: 200
   },
   {
-    id: 66,
+    id: "66",
     serverName: "[LTU] MEMORY RP | 🏙️ GYVENIMAS MIESTE | 🚔 POLICIJA & MAFIJOS | 🏡 NUOSAVI NAMAI | 🚗 REALISTINĖ EKONOMIKA | 💼 DARBAI SU RANGŲ SISTEMA | 📜 TEISINĖ SISTEMA | 🔫 GINKLŲ PREKYBA | 🎭 NELEGALIOS VEIKLOS |",
     connectionCode: "/lg6doj",
     ownerProfile: "https://forum.cfx.re/u/Augis_II",
@@ -929,7 +929,7 @@ export const exampleReports: ReportData[] = [
     maxPlayers: 200
   },
   {
-    id: 67,
+    id: "67",
     serverName: "DMVRP Dev By JayRuger",
     connectionCode: "/3q4oxy",
     ownerProfile: "https://forum.cfx.re/u/JayRuger",
@@ -944,7 +944,7 @@ export const exampleReports: ReportData[] = [
     maxPlayers: 200
   },
   {
-    id: 68,
+    id: "68",
     serverName: "Stories of Southside Chiraq 💥| #1 Serious Chicago | JOIN NOW ⚡ Serious Roleplay ",
     connectionCode: "/dqgemq",
     ownerProfile: "https://forum.cfx.re/u/ChicagoReborn",
@@ -959,7 +959,7 @@ export const exampleReports: ReportData[] = [
     maxPlayers: 200
   },
   {
-    id: 69,
+    id: "69",
     serverName: "⚡6HE RAQ RP V2⚡│🔥Real Roleplay🔥|📈Most Optimized Gang Server📈│💊Custom Drugs💊│🎥Stremer Prio🎥│👧Female Prio👧│🦺Active Staff🦺│📊High FPS📊│📚discord.gg/theraqrp📚|🚔ctive PD & EMS🚔",
     connectionCode: "/53yp9d",
     ownerProfile: "https://forum.cfx.re/u/lidrxpxff",
@@ -974,7 +974,7 @@ export const exampleReports: ReportData[] = [
     maxPlayers: 200
   },
   {
-    id: 70,
+    id: "70",
     serverName: "Black Side RP | 𝘐𝘮𝘮𝘦𝘳𝘴𝘪𝘰𝘯 𝘙𝘰𝘭𝘦𝘱𝘭𝘢𝘺 𝘍𝘰𝘳𝘮𝘪𝘥𝘢𝘣𝘭𝘦",
     connectionCode: "/9kdklm",
     ownerProfile: "https://forum.cfx.re/u/kimmypelletier",
@@ -989,7 +989,7 @@ export const exampleReports: ReportData[] = [
     maxPlayers: 200
   },
   {
-    id: 71,
+    id: "71",
     serverName: "醉幻之都1.0 半rp正式启航 | Q群1043779130 | 过白找管理",
     connectionCode: "/o78kgr",
     ownerProfile: "https://forum.cfx.re/u/1094757896",
@@ -1004,7 +1004,7 @@ export const exampleReports: ReportData[] = [
     maxPlayers: 200
   },
   {
-    id: 72,
+    id: "72",
     serverName: "◆云顶Yun Ding 1.0半RP欢迎你QQ群：991358421◆",
     connectionCode: "/jdqozl",
     ownerProfile: "https://forum.cfx.re/u/Lao.A",
@@ -1019,7 +1019,7 @@ export const exampleReports: ReportData[] = [
     maxPlayers: 200
   },
   {
-    id: 73,
+    id: "73",
     serverName: "奥斯卡 𝙊𝙎𝙘𝙖𝙧半RP扮演 & QQ：129267587 & KOOK:11100307",
     connectionCode: "/el3xrp",
     ownerProfile: "https://forum.cfx.re/u/laomaogeigei",
@@ -1034,7 +1034,7 @@ export const exampleReports: ReportData[] = [
     maxPlayers: 200
   },
   {
-    id: 74,
+    id: "74",
     serverName: "^天使之翼>新人500万>结婚系统>真人玩家>德州扑克> ",
     connectionCode: "/qo7jy4",
     ownerProfile: "https://forum.cfx.re/u/TianTianAiYaoGun",
@@ -1049,7 +1049,7 @@ export const exampleReports: ReportData[] = [
     maxPlayers: 200
   },
   {
-    id: 75,
+    id: "75",
     serverName: "黎明之都半RP免白名单 QQ群719131793多玩法千辆精车模",
     connectionCode: "/b5r3rp",
     ownerProfile: "https://forum.cfx.re/u/suqi666",
@@ -1064,7 +1064,7 @@ export const exampleReports: ReportData[] = [
     maxPlayers: 200
   },
   {
-    id: 76,
+    id: "76",
     serverName: "MIA猫咖屋 |进群下载登录器|美女接待|服主听劝",
     connectionCode: "/eljmv3",
     ownerProfile: "https://forum.cfx.re/u/God-Z1",
@@ -1079,7 +1079,7 @@ export const exampleReports: ReportData[] = [
     maxPlayers: 200
   },
   {
-    id: 77,
+    id: "77",
     serverName: "Grand Opening Came From Nothing NYC Serious RP | CUSTOM DRUGS | FREE GANGS | CUSTOM HOUSING | SREAMER FRIENDLY",
     connectionCode: "/pmavlm",
     ownerProfile: "https://forum.cfx.re/u/oRojo",
@@ -1094,7 +1094,7 @@ export const exampleReports: ReportData[] = [
     maxPlayers: 200
   },
   {
-    id: 78,
+    id: "78",
     serverName: "✨ HoodDreamsRp ✨ | 🔥 Serious RP 🔥 | 🌿 Full Drug System 🌿 | 💼 Player-Owned Jobs 💼 | 🚗 Player-Owned Dealerships 🚗 | 🔧 Player-Owned Mechanics 🔧 | 🎉 Weekly Events & Prizes 🎉 | 💖 eGirl Friendly 💖 | 🤝 Caring Community 🤝",
     connectionCode: "/5xllmr",
     ownerProfile: "https://forum.cfx.re/u/SimplyDK",
@@ -1109,7 +1109,7 @@ export const exampleReports: ReportData[] = [
     maxPlayers: 200
   },
   {
-    id: 79,
+    id: "79",
     serverName: "Dope Wars Roleplay 🔥 | 18+ SEMI GANG RP | iring LEO and EMS | Custom Vehicles | Custom Clothing | Custom Drugs | Realistic Economy | 1500+ Houses | Sell Drugs Anywhere | Streamer Friendly |",
     connectionCode: "/ybzm55",
     ownerProfile: "https://forum.cfx.re/u/DopeWarsRoleplay",
@@ -1124,7 +1124,7 @@ export const exampleReports: ReportData[] = [
     maxPlayers: 200
   },
   {
-    id: 80,
+    id: "80",
     serverName: "life in chi city",
     connectionCode: "/53a4rz",
     ownerProfile: "https://forum.cfx.re/u/PrettyBoyDj",
@@ -1139,7 +1139,7 @@ export const exampleReports: ReportData[] = [
     maxPlayers: 200
   },
   {
-    id: 81,
+    id: "81",
     serverName: "🌎💰GRAND OPENING🌎💰 FREE GANGS TRAPLOVERP🌎 | 💰  FRESH ECONOMY💰 | 🔫 #1 Serious RP🔫 |  E Girl/Stream Friendly🎥 | 👕 Custom Drip 👕 | 🔪 Gang Wars 🔪 | 👷 Active Staff 👷 | 💻 HIGH FPS 💻| 🌎",
     connectionCode: "/97o6qk",
     ownerProfile: "https://forum.cfx.re/u/kwl-uda",
@@ -1154,7 +1154,7 @@ export const exampleReports: ReportData[] = [
     maxPlayers: 200
   },
   {
-    id: 82,
+    id: "82",
     serverName: "Dirty South RP |🔥 GRAND OPENING 🔥| 🚔 NOW HIRING POLICE & EMS 🚑 | Streamer Friendly 🎥 | 🚗 Custom Cars & Jobs |🏢 Player-Owned Businesses | Active & Friendly Staff 👮",
     connectionCode: "/j7xp7p",
     ownerProfile: "https://forum.cfx.re/u/DirtySouth-RP",
@@ -1169,7 +1169,7 @@ export const exampleReports: ReportData[] = [
     maxPlayers: 200
   },
   {
-    id: 83,
+    id: "83",
     serverName: "BankRoll Fresh RP$ Custom Car$ Custom items$ Custom Drugs$ Gangs AND MORE QBCore Framework",
     connectionCode: "/yzagr5",
     ownerProfile: "https://forum.cfx.re/u/Timmy_U_fuNNy",
@@ -1184,7 +1184,7 @@ export const exampleReports: ReportData[] = [
     maxPlayers: 200
   },
   {
-    id: 84,
+    id: "84",
     serverName: "大内蒙半RP1.0 加QQ群579732284 ⭐",
     connectionCode: "/j7qej4",
     ownerProfile: "https://forum.cfx.re/u/ShiQ",
@@ -1199,7 +1199,7 @@ export const exampleReports: ReportData[] = [
     maxPlayers: 200
   },
   {
-    id: 85,
+    id: "85",
     serverName: "👿 Forgotten LA | V3 👿 | ⭐ CUSTOM COIN GUNS⭐ | 🪽 FPS OPTIMIZED SERVER 🪽 | 📊 LA MAP BASED SEMI SERIOUS 📊 | 📦 STARTER PACKS 📦 | ☠️ GANG ROLEPLAY ☠️ | ⚔️ BLOCK TO BLOCK KOS ⚔️ | 👕 CUSTOM CLOTHING 👕 | 💊 CUSTOM DRUGS 💊 | 🛡️ ACTIVE & FAIR STAFF 🛡️ | 🎥 STREAMER FRIENDLY 🎥 | 🏥 CUSTOM EMS 🏥 | 🌿 DIFFERENT DRUG LOCATIONS 🌿 | 👾 NEW-PLAYER FRIENDLY 👾 | 🔗 DISCORD.GG/FGLA 🚀 #1 SEMI SERIOUS SERVER",
     connectionCode: "/3vkyxz",
     ownerProfile: "https://forum.cfx.re/u/e1venk",
@@ -1214,7 +1214,7 @@ export const exampleReports: ReportData[] = [
     maxPlayers: 200
   },
   {
-    id: 86,
+    id: "86",
     serverName: "曼德拉Mandela 半RP角色扮演 1.0 进群过白名单 QQ群：231926901",
     connectionCode: "/kkgpg6",
     ownerProfile: "https://forum.cfx.re/u/TangYINN",
@@ -1229,7 +1229,7 @@ export const exampleReports: ReportData[] = [
     maxPlayers: 200
   },
   {
-    id: 87,
+    id: "87",
     serverName: "达芬奇-半R-无权限-无管理-纯玩家服务器-免白名单-无需下载器-Q群:216231015",
     connectionCode: "/d7rzkd",
     ownerProfile: "https://forum.cfx.re/u/BB9999",
@@ -1244,7 +1244,7 @@ export const exampleReports: ReportData[] = [
     maxPlayers: 200
   },
   {
-    id: 88,
+    id: "88",
     serverName: "GNB City",
     connectionCode: "/qdek79",
     ownerProfile: "https://forum.cfx.re/u/gnbcity",
@@ -1259,7 +1259,7 @@ export const exampleReports: ReportData[] = [
     maxPlayers: 200
   },
   {
-    id: 89,
+    id: "89",
     serverName: "Stories of Southside Chiraq 💥| #1 Serious Chicago | JOIN NOW ⚡ Serious Roleplay ",
     connectionCode: "/dqgemq",
     ownerProfile: "https://forum.cfx.re/u/ChicagoReborn",
@@ -1274,7 +1274,7 @@ export const exampleReports: ReportData[] = [
     maxPlayers: 200
   },
   {
-    id: 90,
+    id: "90",
     serverName: "MidNightRP | 1.1 | WL-OFF | PL",
     connectionCode: "/pzmgma",
     ownerProfile: "https://forum.cfx.re/u/BenZekko",
@@ -1289,7 +1289,7 @@ export const exampleReports: ReportData[] = [
     maxPlayers: 200
   },
   {
-    id: 91,
+    id: "91",
     serverName: "Fiinesse The Bag |18+ semi serious roleplay💯|💗E-girl/Streamer Friendly🎥|Realistic Economy 💰|Player owned Jobs & Businesses|Hiring EMS 🚑/PD👮/Staff🖥️ |Custom Vehicles 🏎️",
     connectionCode: "/m9qrza",
     ownerProfile: "https://forum.cfx.re/u/BIGTM",
@@ -1304,7 +1304,7 @@ export const exampleReports: ReportData[] = [
     maxPlayers: 200
   },
   {
-    id: 92,
+    id: "92",
     serverName: "🌴 Gangsters Paradice🌴 | 💜 E-Girl / Streamer Friendly 📷 |😈 Serious Gang RP | 🏡 Custom Houses 🏡 | 👮 Hiring Police 👮 | 🚑 Hiring EMS 🚑 |  🚗 Custom Vehicles🚗 | 👼 Active Staff 👼 |discord.gg/hVgGS6tvd4| 💊 Custom Drugs💊 | 🕶️ Custom Drip   ",
     connectionCode: "/odgzjr",
     ownerProfile: "https://forum.cfx.re/u/BagBoyTeazy",
@@ -1319,7 +1319,7 @@ export const exampleReports: ReportData[] = [
     maxPlayers: 200
   },
   {
-    id: 93,
+    id: "93",
     serverName: "欲都 半Rp 最新版本 QQ群：988888861 免登录器",
     connectionCode: "/qxqb46",
     ownerProfile: "https://forum.cfx.re/u/A-565758",
@@ -1334,7 +1334,7 @@ export const exampleReports: ReportData[] = [
     maxPlayers: 200
   },
   {
-    id: 94,
+    id: "94",
     serverName: "醉幻之都1.0 半rp正式启航 | Q群1043779130 | 过白找管理",
     connectionCode: "/o78kgr",
     ownerProfile: "https://forum.cfx.re/u/1094757896",
@@ -1349,7 +1349,7 @@ export const exampleReports: ReportData[] = [
     maxPlayers: 200
   },
   {
-    id: 95,
+    id: "95",
     serverName: "◆云顶Yun Ding 1.0半RP欢迎你QQ群：991358421◆",
     connectionCode: "/jdqozl",
     ownerProfile: "https://forum.cfx.re/u/Lao.A",
@@ -1364,7 +1364,7 @@ export const exampleReports: ReportData[] = [
     maxPlayers: 200
   },
   {
-    id: 96,
+    id: "96",
     serverName: "奥斯卡 𝙊𝙎𝙘𝙖𝙧半RP扮演 & QQ：129267587 & KOOK:11100307",
     connectionCode: "/el3xrp",
     ownerProfile: "https://forum.cfx.re/u/laomaogeigei",
@@ -1379,7 +1379,7 @@ export const exampleReports: ReportData[] = [
     maxPlayers: 200
   },
   {
-    id: 97,
+    id: "97",
     serverName: "MIA猫咖屋 |进群下载登录器|美女接待|服主听劝",
     connectionCode: "/eljmv3",
     ownerProfile: "https://forum.cfx.re/u/God-Z1",
@@ -1394,7 +1394,7 @@ export const exampleReports: ReportData[] = [
     maxPlayers: 200
   },
   {
-    id: 98,
+    id: "98",
     serverName: "Outside RP | True-to-Life Roleplay | Grand Opening | Active Community | Semi-Serious RP | Active Staff | Fresh Economy ",
     connectionCode: "/ak68ak",
     ownerProfile: "https://forum.cfx.re/u/PabloShoota",
@@ -1409,7 +1409,7 @@ export const exampleReports: ReportData[] = [
     maxPlayers: 200
   },
   {
-    id: 99,
+    id: "99",
     serverName: "黎明之都半RP免白名单 QQ群719131793多玩法千辆精车模",
     connectionCode: "/b5r3rp",
     ownerProfile: "https://forum.cfx.re/u/suqi666",
@@ -1424,7 +1424,7 @@ export const exampleReports: ReportData[] = [
     maxPlayers: 200
   },
   {
-    id: 100,
+    id: "100",
     serverName: "Grand Opening Came From Nothing NYC Serious RP | CUSTOM DRUGS | FREE GANGS | CUSTOM HOUSING | SREAMER FRIENDLY",
     connectionCode: "/pmavlm",
     ownerProfile: "https://forum.cfx.re/u/oRojo",
@@ -1439,7 +1439,7 @@ export const exampleReports: ReportData[] = [
     maxPlayers: 200
   },
   {
-    id: 101,
+    id: "101",
     serverName: "✨ HoodDreamsRp ✨ | 🔥 Serious RP 🔥 | 🌿 Full Drug System 🌿 | 💼 Player-Owned Jobs 💼 | 🚗 Player-Owned Dealerships 🚗 | 🔧 Player-Owned Mechanics 🔧 | 🎉 Weekly Events & Prizes 🎉 | 💖 eGirl Friendly 💖 | 🤝 Caring Community 🤝",
     connectionCode: "/5xllmr",
     ownerProfile: "https://forum.cfx.re/u/SimplyDK",
