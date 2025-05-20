@@ -537,17 +537,41 @@ export const BLACKLISTED_CREATORS: BlacklistEntry[] = [
     keyword: "libertycity.net",
     flaggedBy: "Sophia"
   },
-  // Hopeleaks
+  // V5 Leaks | Fivem
   {
-  name: "HopeLeaks",
-  links: ["https://discord.gg/BR7yKg7cze"],
-  reason: "Distributes leaked and stolen scripts without permission from original authors and Support DDoS Tools",
-  severity: "high",
-  blacklistedSince: "18-05-2025",
-  category: "discord",
-  keyword: "leak",
-  discordServerId: "1339625499122466890",
-  flaggedBy: "Avocato"
-},
+      name: "V5 Leaks | Fivem",
+      links: ["https://discord.gg/v5leaks"],
+      reason: "Leaking",
+      severity: "critical", //'low' | 'medium' | 'high' | 'critical';
+      blacklistedSince: "18-05-2025", // day-month-year
+      category: "discord", // discord//tebex/other
+      keyword: "fivem-leak", //search keyword
+      discordServerId: "1107445116551037092", // Use this if there is a discord server If applicable
+      flaggedBy: "Roda" //
+  },
+  // 420 Services
+  {
+      name: "420-Services",
+      links: ["https://discord.gg/420-servicesnet", "https://420-services.net/"],
+      reason: "Sell Cheats",
+      severity: "critical", //'low' | 'medium' | 'high' | 'critical';
+      blacklistedSince: "18-05-2025", // day-month-year
+      category: "discord/other", // discord//tebex/other
+      keyword: "fivem-cheat", //search keyword
+      discordServerId: "1320136497638281297", // Use this if there is a discord server If applicable
+      flaggedBy: "Roda" //
+    },
+  // Hopeleaks
+    {
+    name: "HopeLeaks",
+    links: ["https://discord.gg/BR7yKg7cze"],
+    reason: "Distributes leaked and stolen scripts without permission from original authors and Support DDoS Tools",
+    severity: "high",
+    blacklistedSince: "18-05-2025",
+    category: "discord",
+    keyword: "leak",
+    discordServerId: "1339625499122466890",
+    flaggedBy: "Avocato"
+    },
 
 ];
