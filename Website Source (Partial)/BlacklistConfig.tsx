@@ -536,5 +536,18 @@ export const BLACKLISTED_CREATORS: BlacklistEntry[] = [
     category: "other",
     keyword: "libertycity.net",
     flaggedBy: "Sophia"
-  }
+  },
+  // Hopeleaks
+  {
+  name: "HopeLeaks",
+  links: ["https://discord.gg/BR7yKg7cze"],
+  reason: "Distributes leaked and stolen scripts without permission from original authors and Support DDoS Tools",
+  severity: "high",
+  blacklistedSince: "18-05-2025",
+  category: "discord",
+  keyword: "leak",
+  discordServerId: "1339625499122466890",
+  flaggedBy: "Avocato"
+},
+
 ];
