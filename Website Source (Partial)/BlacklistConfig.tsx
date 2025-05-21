@@ -701,7 +701,7 @@ export const BLACKLISTED_CREATORS: BlacklistEntry[] = [
     blacklistedSince: "21.5.2025", // day-month-year
     category: "discord", // discord//tebex/other
     keyword: "fivem-cheats", // Search Keywords
-    discordServerId: "1150749163332571137" // Use this if there is a discord server If applicable
+    discordServerId: "1150749163332571137", // Use this if there is a discord server If applicable
     flaggedBy: "LueFlue" //
-  },
+  }
 ];
