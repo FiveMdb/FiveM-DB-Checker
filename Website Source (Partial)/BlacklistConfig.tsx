@@ -669,5 +669,17 @@ export const BLACKLISTED_CREATORS: BlacklistEntry[] = [
     discordServerId: "749048313990479953", // Use this if there is a discord server If applicable
     flaggedBy: "LueFlue" //
   }
+  // MT Development
+    {
+    name: "MT - DEVELOPMENT ❄",
+    links: ["https://mt-development.tebex.io"],
+    reason: "Reselling scripts without permission", // Reason of blacklist
+    severity: "high", //'low' | 'medium' | 'high' | 'critical';
+    blacklistedSince: "21.5.2025", // day-month-year
+    category: "tebex", // discord//tebex/other
+    keyword: "Reselling, stealing", // Search Keywords
+    discordServerId: "1235303563010375783" // Use this if there is a discord server If applicable
+    flaggedBy: "Marat" //
+  },
   
 ];
