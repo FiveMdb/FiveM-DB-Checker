@@ -573,5 +573,101 @@ export const BLACKLISTED_CREATORS: BlacklistEntry[] = [
     discordServerId: "1339625499122466890",
     flaggedBy: "Avocato"
     },
-
+  // Civez Leaks
+  {
+    name: "Civez Leaks",
+    links: ["https://discord.gg/ZSNhZJexJ2"],
+    reason: "Leaking",
+    severity: "critical", //'low' | 'medium' | 'high' | 'critical';
+    blacklistedSince: "20-05-2025", // day-month-year
+    category: "discord", // discord//tebex/other
+    keyword: "fivem-leak", //search keyword
+    discordServerId: "1358118695892685172", // Use this if there is a discord server If applicable
+    flaggedBy: "Maddy" //
+  },
+// XX Leaks
+  {
+    name: "XX Leaks | v1 |TA & Eu",
+    links: ["https://discord.gg/N4Z9xaeH2p"],
+    reason: "Leaking",
+    severity: "critical", //'low' | 'medium' | 'high' | 'critical';
+    blacklistedSince: "20-05-2025", // day-month-year
+    category: "discord", // discord//tebex/other
+    keyword: "fivem-leak", //search keyword
+    discordServerId: "1350465517928054855", // Use this if there is a discord server If applicable
+    flaggedBy: "Maddy" //
+  },
+  // Toxic FiveM
+  {
+    name: "Toxic FiveM Community",
+    links: ["https://discord.gg/MSnw2yKMtx"],
+    reason: "Leaking, reselling",
+    severity: "critical", //'low' | 'medium' | 'high' | 'critical';
+    blacklistedSince: "20/05/2025", // day-month-year
+    category: "discord", // discord//tebex/other
+    keyword: "fivem-leak", //search keyword
+    discordServerId: "1050399314242973706", // Use this if there is a discord server If applicable
+    flaggedBy: "LueFlue" //
+  },
+  // Unreal Leaks
+  {
+    name: "< Unreal Leaks >",
+    links: ["https://discord.gg/JjRwcGMZUB"],
+    reason: "Leaking",
+    severity: "critical", //'low' | 'medium' | 'high' | 'critical';
+    blacklistedSince: "20/05/2025", // day-month-year
+    category: "discord", // discord//tebex/other
+    keyword: "fivem-leak", //search keyword
+    discordServerId: "1319155442236129290", // Use this if there is a discord server If applicable
+    flaggedBy: "LueFlue" //
+  },
+  // Bobbis x JL Store
+  {
+    name: "Bobbis x JL Store",
+    links: ["https://discord.gg/G9fUchkJ2k"],
+    reason: "Reselling",
+    severity: "critical", //'low' | 'medium' | 'high' | 'critical';
+    blacklistedSince: "20/05/2025", // day-month-year
+    category: "discord", // discord//tebex/other
+    keyword: "fivem-leak", //search keyword
+    discordServerId: "1162010226069880912", // Use this if there is a discord server If applicable
+    flaggedBy: "LueFlue" //
+  },
+  //Black Leaks
+  {
+    name: "Black Leaks",
+    links: ["https://discord.gg/x26NwFN4xC"],
+    reason: "Leaking",
+    severity: "critical", //'low' | 'medium' | 'high' | 'critical';
+    blacklistedSince: "20/05/2025", // day-month-year
+    category: "discord", // discord//tebex/other
+    keyword: "fivem-leak", //search keyword
+    discordServerId: "899720622815444993", // Use this if there is a discord server If applicable
+    flaggedBy: "LueFlue" //
+  },
+  //Bloss Premium 
+  {
+    name: "Bloss Premium",
+    links: ["https://discord.gg/EqkaFm7wSe"],
+    reason: "Leaking",
+    severity: "critical", //'low' | 'medium' | 'high' | 'critical';
+    blacklistedSince: "20/05/2025", // day-month-year
+    category: "discord", // discord//tebex/other
+    keyword: "fivem-leak", //search keyword
+    discordServerId: "905846194838839296", // Use this if there is a discord server If applicable
+    flaggedBy: "LueFlue" //
+  },
+  // Polo Leaks
+  {
+    name: "Polo Leaks",
+    links: ["https://discord.gg/rEKz9tZXUr"],
+    reason: "Leaking",
+    severity: "critical", //'low' | 'medium' | 'high' | 'critical';
+    blacklistedSince: "20/05/2025", // day-month-year
+    category: "discord", // discord//tebex/other
+    keyword: "fivem-leak", //search keyword
+    discordServerId: "749048313990479953", // Use this if there is a discord server If applicable
+    flaggedBy: "LueFlue" //
+  }
+  
 ];
