@@ -692,4 +692,16 @@ export const BLACKLISTED_CREATORS: BlacklistEntry[] = [
     keyword: "Child-Peds", //search keyword
     discordServerId: "894339222905958471", // Use this if there is a discord server If applicable
     flaggedBy: "Asked to Remain Un-named" //
+  },
+  {
+    name: "Motion Life",
+    links: ["https://discord.gg/motionlife", "https://motionlife.mysellauth.com/"],
+    reason: "Cheats", // Reason of blacklist
+    severity: "high", //'low' | 'medium' | 'high' | 'critical';
+    blacklistedSince: "21.5.2025", // day-month-year
+    category: "discord", // discord//tebex/other
+    keyword: "fivem-cheats", // Search Keywords
+    discordServerId: "1150749163332571137" // Use this if there is a discord server If applicable
+    flaggedBy: "LueFlue" //
+  },
 ];
