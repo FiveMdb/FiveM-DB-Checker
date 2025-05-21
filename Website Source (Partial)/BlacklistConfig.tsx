@@ -668,18 +668,28 @@ export const BLACKLISTED_CREATORS: BlacklistEntry[] = [
     keyword: "fivem-leak", //search keyword
     discordServerId: "749048313990479953", // Use this if there is a discord server If applicable
     flaggedBy: "LueFlue" //
-  }
+  },
   // MT Development
     {
     name: "MT - DEVELOPMENT ❄",
     links: ["https://mt-development.tebex.io"],
     reason: "Reselling scripts without permission", // Reason of blacklist
     severity: "high", //'low' | 'medium' | 'high' | 'critical';
-    blacklistedSince: "21.5.2025", // day-month-year
+    blacklistedSince: "21-5-2025", // day-month-year
     category: "tebex", // discord//tebex/other
-    keyword: "Reselling, stealing", // Search Keywords
-    discordServerId: "1235303563010375783" // Use this if there is a discord server If applicable
+    keyword: "Reselling", //search keyword
+    discordServerId: "1235303563010375783", // Use this if there is a discord server If applicable
     flaggedBy: "Marat" //
   },
-  
+  // Kill store (Asked to remain anonomus)
+  {
+    name: "Killstore",
+    links: ["https://killstore.net/", "https://discord.gg/dxD44nkcAs"],
+    reason: "Code of Conduct(Child Ped Modles), Not using Tebex, IP Related Violations",
+    severity: "critical", //'low' | 'medium' | 'high' | 'critical';
+    blacklistedSince: "21-5-2025", // day-month-year
+    category: "tebex",
+    keyword: "Child-Peds", //search keyword
+    discordServerId: "894339222905958471", // Use this if there is a discord server If applicable
+    flaggedBy: "Asked to Remain Un-named" //
 ];
