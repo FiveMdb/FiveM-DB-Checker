@@ -703,5 +703,16 @@ export const BLACKLISTED_CREATORS: BlacklistEntry[] = [
     keyword: "fivem-cheats", // Search Keywords
     discordServerId: "1150749163332571137", // Use this if there is a discord server If applicable
     flaggedBy: "LueFlue" //
-  }
+  },
+{
+    name: "Fivemassets",
+    links: ["https://fivemassets.com/", "https://discord.gg/2dfHQjxwKv"],
+    reason: "IP Infringement, Code Of Conduct, Illegal, Branded Assets, Resellling", // Reason of blacklist
+    severity: "critical", //'low' | 'medium' | 'high' | 'critical';
+    blacklistedSince: "22.5.2025", // day-month-year
+    category: "other", // discord//tebex/other
+    keyword: "fivemassets", // Search Keywords
+    discordServerId: "738371943136231474", // Use this if there is a discord server If applicable
+    flaggedBy: "Baldwin" //
+  },
 ];
