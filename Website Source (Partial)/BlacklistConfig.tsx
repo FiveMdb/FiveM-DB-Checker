@@ -388,7 +388,7 @@ export const BLACKLISTED_CREATORS: BlacklistEntry[] = [
   {
     name: "FiveGuard",
     links: ["https://fiveguard.net/", "https://discord.gg/fiveguard", "https://discord.com/invite/fiveguard"],
-    reason: "Breaking Tebex Selling License, Suspected 'Cipher'",
+    reason: "Breaking Tebex Selling License", // Removed False Flag Recomended "acused by" ID = 1322043296918278228 @esx_framework
     severity: "critical",
     blacklistedSince: "16-05-2025",
     category: "discord",
