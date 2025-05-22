@@ -715,4 +715,15 @@ export const BLACKLISTED_CREATORS: BlacklistEntry[] = [
     discordServerId: "738371943136231474", // Use this if there is a discord server If applicable
     flaggedBy: "Baldwin" //
   },
+{
+    name: "GOMModeling",
+    links: ["https://gom-modeling.com/", "https://discord.com/invite/gom-modeling", "https://discord.gg/gom-modeling"],
+    reason: "IP Infringement, Branded Assets, Unauthorized Marketplace", // Reason of blacklist
+    severity: "critical", //'low' | 'medium' | 'high' | 'critical';
+    blacklistedSince: "22.5.2025", // day-month-year
+    category: "tebex", // discord//tebex/other
+    keyword: "gommodeling", // Search Keywords
+    discordServerId: "775103322935918602", // Use this if there is a discord server If applicable
+    flaggedBy: "Baldwin" //
+  },
 ];
