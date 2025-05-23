@@ -726,14 +726,26 @@ export const BLACKLISTED_CREATORS: BlacklistEntry[] = [
     discordServerId: "775103322935918602", // Use this if there is a discord server If applicable
     flaggedBy: "Baldwin" //
   },
-{
-    name: "Fivemscript",
-    links: ["https://fivemscript.store"],
-    reason: "IP Infringement, Code Of Conduct, Branded Assets, Resellling, Leaking, Illegal", // Reason of blacklist
-    severity: "critical", //'low' | 'medium' | 'high' | 'critical';
-    blacklistedSince: "22.5.2025", // day-month-year
-    category: "tebex", // discord//tebex/other
-    keyword: "Fivemscript", // Search Keywords
-    flaggedBy: "Baldwin" //
-  },
+  {
+      name: "Fivemscript",
+      links: ["https://fivemscript.store"],
+      reason: "IP Infringement, Code Of Conduct, Branded Assets, Resellling, Leaking, Illegal", // Reason of blacklist
+      severity: "critical", //'low' | 'medium' | 'high' | 'critical';
+      blacklistedSince: "22.5.2025", // day-month-year
+      category: "tebex", // discord//tebex/other
+      keyword: "Fivemscript", // Search Keywords
+      flaggedBy: "Baldwin" //
+    },
+  // Reaper Anticheat
+  {
+      name: "reaperac",
+      links: ["https://reaperac.com/"],
+      reason: "Un-Authorised Marketplace", // Reason of blacklist
+      severity: "high", //'low' | 'medium' | 'high' | 'critical';
+      blacklistedSince: "23-5-2025", // day-month-year
+      category: "other", // discord//tebex/other
+      keyword: "reaperac", // Search Keywords
+      flaggedBy: "sophia" //
+    },
 ];
+//
