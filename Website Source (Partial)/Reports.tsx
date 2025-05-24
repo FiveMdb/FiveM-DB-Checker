@@ -6,7 +6,6 @@ import { Search, Filter, Server } from "lucide-react";
 import ReportTile, { ReportData, ServerStatus } from "@/components/ReportTile";
 import { cn } from "@/lib/utils";
 
-// Live Server Report Data
 export const exampleReports: ReportData[] = [
   {
     id: "1",
@@ -17,10 +16,6 @@ export const exampleReports: ReportData[] = [
     reportLink: "https://docs.google.com/document/d/abc123",
     status: "closed",
     reportDate: "2025-05-01",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 200,
-    serverImage: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
   },
   {
     id: "2",
@@ -30,10 +25,7 @@ export const exampleReports: ReportData[] = [
     violations: ["Non-TOS Compliant Vehicles, Clothing, MLO's", "Unauthorized monetization", "Blacklisted Resources"],
     reportLink: "https://docs.google.com/document/d/abc123",
     status: "closed",
-    reportDate: "2025-04-28",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 128
+    reportDate: "2025-04-28"
   },
   {
     id: "3",
@@ -44,10 +36,7 @@ export const exampleReports: ReportData[] = [
     reportLink: "https://docs.google.com/document/d/abc123",
     status: "closed",
     reportDate: "2025-04-25",
-    serverStatus: "online",
-    playerCount: 100,
-    maxPlayers: 200,
-    serverImage: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
+    
   },
   {
     id: "4",
@@ -58,10 +47,6 @@ export const exampleReports: ReportData[] = [
     reportLink: "https://docs.google.com/document/d/abc123",
     status: "resolved",
     reportDate: "2025-04-22",
-    serverStatus: "online",
-    playerCount: 150,
-    maxPlayers: 200,
-    serverImage: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
   },
   {
     id: "5",
@@ -71,11 +56,7 @@ export const exampleReports: ReportData[] = [
     violations: [ "Non-TOS Compliant Vehicles, Clothing, MLO's", "Unauthorized monetization"],
     reportLink: "https://docs.google.com/document/d/abc123",
     status: "closed",
-    reportDate: "2025-04-15",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 100,
-    serverImage: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
+    reportDate: "2025-04-15"
   },
   {
     id: "6",
@@ -85,11 +66,7 @@ export const exampleReports: ReportData[] = [
     violations: [ "Map related IP", "Non tos compliant Vehicles, Clothing and mlos", "Unauthorized monetization"],
     reportLink: "https://docs.google.com/document/d/abc123",
     status: "closed",
-    reportDate: "2025-04-10",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 100,
-    serverImage: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
+    reportDate: "2025-04-10"
   },
   {
     id: "7",
@@ -99,11 +76,7 @@ export const exampleReports: ReportData[] = [
     violations: [ "Map related IP", "Non tos compliant Vehicles, Clothing and mlos", "Unauthorized monetization"],
     reportLink: "https://docs.google.com/document/d/abc123",
     status: "closed",
-    reportDate: "2025-04-05",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 100,
-    serverImage: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
+    reportDate: "2025-04-05"
   },
   {
     id: "8",
@@ -113,11 +86,7 @@ export const exampleReports: ReportData[] = [
     violations: [ "Unauthorized monetization"],
     reportLink: "https://docs.google.com/document/d/abc123",
     status: "closed",
-    reportDate: "2025-03-30",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 100,
-    serverImage: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
+    reportDate: "2025-03-30"
   },
   {
     id: "9",
@@ -127,11 +96,7 @@ export const exampleReports: ReportData[] = [
     violations: ["Non tos compliant Vehicles, Clothing and mlos", "Unauthorized monetization"],
     reportLink: "https://docs.google.com/document/d/abc123",
     status: "closed",
-    reportDate: "2025-03-25",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 100,
-    serverImage: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
+    reportDate: "2025-03-25"
   },
   {
     id: "10",
@@ -141,11 +106,7 @@ export const exampleReports: ReportData[] = [
     violations: ["Non tos compliant Vehicles, Clothing and mlos", "Unauthorized monetization"],
     reportLink: "https://docs.google.com/document/d/abc123",
     status: "closed",
-    reportDate: "2025-03-20",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 100,
-    serverImage: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
+    reportDate: "2025-03-20"
   },
   {
     id: "11",
@@ -155,11 +116,7 @@ export const exampleReports: ReportData[] = [
     violations: ["Selling Non Compliant Vehicles"],
     reportLink: "https://docs.google.com/document/d/abc123",
     status: "closed",
-    reportDate: "2025-03-15",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 100,
-    serverImage: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
+    reportDate: "2025-03-15"
   },
   {
     id: "12",
@@ -169,11 +126,7 @@ export const exampleReports: ReportData[] = [
     violations: [ "Selling Non Compliant Vehicles", "Non tos compliant Vehicles, Clothing and mlos", "Unauthorized monetization"],
     reportLink: "https://docs.google.com/document/d/abc123",
     status: "closed",
-    reportDate: "2025-03-10",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 100,
-    serverImage: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
+    reportDate: "2025-03-10"
   },
   {
     id: "13",
@@ -183,11 +136,7 @@ export const exampleReports: ReportData[] = [
     violations: [ "Selling Non Compliant Vehicles", "Non tos compliant Vehicles, Clothing and mlos", "Unauthorized monetization"],
     reportLink: "https://docs.google.com/document/d/abc123",
     status: "closed",
-    reportDate: "2025-03-05",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 100,
-    serverImage: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
+    reportDate: "2025-03-05"
   },
   {
     id: "14",
@@ -197,11 +146,7 @@ export const exampleReports: ReportData[] = [
     violations: [ "Selling Non Compliant Vehicles", "Non tos compliant Vehicles, Clothing and mlos", "Unauthorized monetization"],
     reportLink: "https://docs.google.com/document/d/abc123",
     status: "closed",
-    reportDate: "2025-03-00",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 100,
-    serverImage: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
+    reportDate: "2025-03-00"
   },
   {
     id: "15",
@@ -211,11 +156,7 @@ export const exampleReports: ReportData[] = [
     violations: [ "Selling Non Compliant Vehicles", "Non tos compliant Vehicles, Clothing and mlos", "Unauthorized monetization"],
     reportLink: "https://docs.google.com/document/d/abc123",
     status: "closed",
-    reportDate: "2024-12-25",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 100,
-    serverImage: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
+    reportDate: "2024-12-25"
   },
   {
     id: "16",
@@ -225,11 +166,7 @@ export const exampleReports: ReportData[] = [
     violations: [ "Selling Non Compliant Vehicles", "Non tos compliant Vehicles, Clothing and mlos", "Unauthorized monetization"],
     reportLink: "https://docs.google.com/document/d/abc123",
     status: "closed",
-    reportDate: "2024-12-20",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 100,
-    serverImage: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
+    reportDate: "2024-12-20"
   },
   {
     id: "17",
@@ -239,11 +176,7 @@ export const exampleReports: ReportData[] = [
     violations: [ "Non tos compliant Vehicles, Clothing and mlos", "Unauthorized monetization"],
     reportLink: "https://docs.google.com/document/d/abc123",
     status: "closed",
-    reportDate: "2024-12-15",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 100,
-    serverImage: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
+    reportDate: "2024-12-15"
   },
   {
     id: "18",
@@ -253,11 +186,7 @@ export const exampleReports: ReportData[] = [
     violations: ["Non tos compliant Vehicles, Clothing and mlos", "Unauthorized monetization"],
     reportLink: "https://docs.google.com/document/d/abc123",
     status: "closed",
-    reportDate: "2024-12-10",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 100,
-    serverImage: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
+    reportDate: "2024-12-10"
   },
   {
     id: "19",
@@ -267,11 +196,7 @@ export const exampleReports: ReportData[] = [
     violations: ["Non tos compliant Vehicles, Clothing and mlos", "Unauthorized monetization"],
     reportLink: "https://docs.google.com/document/d/abc123",
     status: "closed",
-    reportDate: "2024-12-05",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 100,
-    serverImage: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
+    reportDate: "2024-12-05"
   },
   {
     id: "20",
@@ -281,11 +206,7 @@ export const exampleReports: ReportData[] = [
     violations: [ "Non tos compliant Vehicles, Clothing and mlos", "Unauthorized monetization"],
     reportLink: "https://docs.google.com/document/d/abc123",
     status: "closed",
-    reportDate: "2024-11-30",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 100,
-    serverImage: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
+    reportDate: "2024-11-30"
   },
   {
     id: "21",
@@ -295,11 +216,7 @@ export const exampleReports: ReportData[] = [
     violations: [ "Non tos compliant Vehicles, Clothing and mlos", "Unauthorized monetization"],
     reportLink: "https://docs.google.com/document/d/abc123",
     status: "closed",
-    reportDate: "2024-11-25",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 100,
-    serverImage: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
+    reportDate: "2024-11-25"
   },
   {
     id: "22",
@@ -309,11 +226,7 @@ export const exampleReports: ReportData[] = [
     violations: [ "Non tos compliant Vehicles, Clothing and mlos", "Unauthorized monetization"],
     reportLink: "https://docs.google.com/document/d/abc123",
     status: "closed",
-    reportDate: "2024-11-20",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 100,
-    serverImage: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
+    reportDate: "2024-11-20"
   },
   {
     id: "23",
@@ -323,11 +236,7 @@ export const exampleReports: ReportData[] = [
     violations: [ "Non tos compliant Vehicles, Clothing and mlos", "Unauthorized monetization"],
     reportLink: "https://docs.google.com/document/d/abc123",
     status: "closed",
-    reportDate: "2024-11-15",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 100,
-    serverImage: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
+    reportDate: "2024-11-15"
   },
   {
     id: "24",
@@ -337,11 +246,7 @@ export const exampleReports: ReportData[] = [
     violations: ["Non tos compliant Vehicles, Clothing and mlos", "Unauthorized monetization"],
     reportLink: "https://docs.google.com/document/d/abc123",
     status: "closed",
-    reportDate: "2024-11-10",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 100,
-    serverImage: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
+    reportDate: "2024-11-10"
   },
   {
     id: "25",
@@ -351,11 +256,7 @@ export const exampleReports: ReportData[] = [
     violations: [ "Non tos compliant Vehicles, Clothing and mlos", "Unauthorized monetization"],
     reportLink: "https://docs.google.com/document/d/abc123",
     status: "closed",
-    reportDate: "2024-11-05",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 100,
-    serverImage: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
+    reportDate: "2024-11-05"
   },
   {
     id: "26",
@@ -365,11 +266,7 @@ export const exampleReports: ReportData[] = [
     violations: ["CODE OF CONDUCT", "SELLING CHILD PEDS",  "Non tos compliant Vehicles, Clothing and mlos", "Unauthorized monetization"],
     reportLink: "https://docs.google.com/document/d/abc123",
     status: "closed",
-    reportDate: "2024-11-00",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 100,
-    serverImage: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
+    reportDate: "2024-11-00"
   },
   {
     id: "27",
@@ -379,11 +276,7 @@ export const exampleReports: ReportData[] = [
     violations: ["Non tos compliant Vehicles, Clothing and mlos", "Unauthorized monetization"],
     reportLink: "https://docs.google.com/document/d/abc123",
     status: "closed",
-    reportDate: "2024-10-25",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 100,
-    serverImage: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
+    reportDate: "2024-10-25"
   },
   {
     id: "28",
@@ -393,11 +286,7 @@ export const exampleReports: ReportData[] = [
     violations: [ "Non tos compliant Vehicles, Clothing and mlos", "Unauthorized monetization"],
     reportLink: "https://docs.google.com/document/d/abc123",
     status: "closed",
-    reportDate: "2024-10-20",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 100,
-    serverImage: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
+    reportDate: "2024-10-20"
   },
   {
     id: "29",
@@ -407,11 +296,7 @@ export const exampleReports: ReportData[] = [
     violations: [ "Non tos compliant Vehicles, Clothing and mlos", "Unauthorized monetization"],
     reportLink: "https://docs.google.com/document/d/abc123",
     status: "closed",
-    reportDate: "2024-10-15",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 100,
-    serverImage: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
+    reportDate: "2024-10-15"
   },
   {
     id: "30",
@@ -421,11 +306,7 @@ export const exampleReports: ReportData[] = [
     violations: [ "Non tos compliant Vehicles, Clothing and mlos", "Unauthorized monetization"],
     reportLink: "https://docs.google.com/document/d/abc123",
     status: "closed",
-    reportDate: "2024-10-10",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 100,
-    serverImage: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
+    reportDate: "2024-10-10"
   },
   {
     id: "31",
@@ -435,11 +316,7 @@ export const exampleReports: ReportData[] = [
     violations: ["Unauthorized monetization"],
     reportLink: "https://docs.google.com/document/d/abc123",
     status: "closed",
-    reportDate: "2024-10-05",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 100,
-    serverImage: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
+    reportDate: "2024-10-05"
   },
   {
     id: "32",
@@ -449,11 +326,7 @@ export const exampleReports: ReportData[] = [
     violations: [ "Non tos compliant Vehicles, Clothing and mlos", "Unauthorized monetization"],
     reportLink: "https://docs.google.com/document/d/abc123",
     status: "closed",
-    reportDate: "2024-09-30",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 100,
-    serverImage: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
+    reportDate: "2024-09-30"
   },
   {
     id: "33",
@@ -463,11 +336,7 @@ export const exampleReports: ReportData[] = [
     violations: [ "Non tos compliant Vehicles, Clothing and mlos", "Unauthorized monetization"],
     reportLink: "https://docs.google.com/document/d/abc123",
     status: "closed",
-    reportDate: "2024-09-25",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 100,
-    serverImage: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
+    reportDate: "2024-09-25"
   },
   {
     id: "34",
@@ -477,11 +346,7 @@ export const exampleReports: ReportData[] = [
     violations: [ "Non tos compliant Vehicles, Clothing and mlos", "Unauthorized monetization"],
     reportLink: "https://docs.google.com/document/d/abc123",
     status: "closed",
-    reportDate: "2024-09-20",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 100,
-    serverImage: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
+    reportDate: "2024-09-20"
   },
   {
     id: "35",
@@ -491,11 +356,7 @@ export const exampleReports: ReportData[] = [
     violations: [ "Non tos compliant Vehicles, Clothing and mlos", "Unauthorized monetization"],
     reportLink: "https://docs.google.com/document/d/abc123",
     status: "closed",
-    reportDate: "2024-09-15",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 100,
-    serverImage: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
+    reportDate: "2024-09-15"
   },
   {
     id: "36",
@@ -505,11 +366,7 @@ export const exampleReports: ReportData[] = [
     violations: [ "Non tos compliant Vehicles, Clothing and mlos", "Unauthorized monetization"],
     reportLink: "https://docs.google.com/document/d/abc123",
     status: "closed",
-    reportDate: "2024-09-10",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 100,
-    serverImage: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
+    reportDate: "2024-09-10"
   },
   // 03/05/2025
   {
@@ -520,11 +377,7 @@ export const exampleReports: ReportData[] = [
     violations: [ "Non tos compliant Vehicles Clothing and mlos", "threatening minors With Inflicting Harm", "Unauthorized monetization", "Breaking Creator Policies on Selling Vehicles that they made.", "Doxxing Prior Staff"],
     reportLink: "https://docs.google.com/document/d/abc123",
     status: "open",
-    reportDate: "2025-05-01",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 100,
-    serverImage: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
+    reportDate: "2025-05-01"
   },
   // 05/05/2025
   {
@@ -535,11 +388,7 @@ export const exampleReports: ReportData[] = [
     violations: ["Code of Conduct Violation", "Breaking IP Laws"],
     reportLink: "https://docs.google.com/document/d/abc123",
     status: "open",
-    reportDate: "2025-05-01",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 100,
-    serverImage: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
+    reportDate: "2025-05-01"
   },
   {
     id: "39",
@@ -549,11 +398,7 @@ export const exampleReports: ReportData[] = [
     violations: ["Code of Conduct Violation", "Breaking IP Laws"],
     reportLink: "https://docs.google.com/document/d/abc123",
     status: "open",
-    reportDate: "2025-05-01",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 100,
-    serverImage: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
+    reportDate: "2025-05-01"
   },
   {
     id: "40",
@@ -563,11 +408,7 @@ export const exampleReports: ReportData[] = [
   violations: ["Code of Conduct Violation", "Breaking IP Laws"],
   reportLink: "https://docs.google.com/document/d/abc123",
   status: "open",
-  reportDate: "2025-05-01",
-  serverStatus: "offline",
-  playerCount: 0,
-  maxPlayers: 100,
-  serverImage: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
+  reportDate: "2025-05-01"
   },
   {
     id: "41",
@@ -577,11 +418,7 @@ export const exampleReports: ReportData[] = [
   violations: ["Code of Conduct Violation", "Breaking IP Laws"],
   reportLink: "https://docs.google.com/document/d/abc123",
   status: "open",
-  reportDate: "2025-05-01",
-  serverStatus: "offline",
-  playerCount: 0,
-  maxPlayers: 100,
-  serverImage: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
+  reportDate: "2025-05-01"
   },
   {
     id: "42",
@@ -591,11 +428,7 @@ export const exampleReports: ReportData[] = [
   violations: ["Code of Conduct Violation", "Breaking IP Laws"],
   reportLink: "https://docs.google.com/document/d/abc123",
   status: "open",
-  reportDate: "2025-05-01",
-  serverStatus: "offline",
-  playerCount: 0,
-  maxPlayers: 100,
-  serverImage: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
+  reportDate: "2025-05-01"
   },
   {
     id: "43",
@@ -605,11 +438,7 @@ export const exampleReports: ReportData[] = [
   violations: ["Code of Conduct Violation", "Breaking IP Laws"],
   reportLink: "https://docs.google.com/document/d/abc123",
   status: "open",
-  reportDate: "2025-05-01",
-  serverStatus: "offline",
-  playerCount: 0,
-  maxPlayers: 100,
-  serverImage: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
+  reportDate: "2025-05-01"
   },
   {
     id: "44",
@@ -619,11 +448,7 @@ export const exampleReports: ReportData[] = [
   violations: ["Code of Conduct Violation", "Breaking IP Laws"],
   reportLink: "https://docs.google.com/document/d/abc123",
   status: "open",
-  reportDate: "2025-05-01",
-  serverStatus: "offline",
-  playerCount: 0,
-  maxPlayers: 100,
-  serverImage: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
+  reportDate: "2025-05-01"
   },
   {
     id: "45",
@@ -634,10 +459,6 @@ export const exampleReports: ReportData[] = [
   reportLink: "https://docs.google.com/document/d/abc123",
   status: "open",
   reportDate: "2025-05-01",
-  serverStatus: "offline",
-  playerCount: 0,
-  maxPlayers: 100,
-  serverImage: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
   },
   {
     id: "46",
@@ -647,11 +468,7 @@ export const exampleReports: ReportData[] = [
   violations: ["Code of Conduct Violation", "Breaking IP Laws"],
   reportLink: "https://docs.google.com/document/d/abc123",
   status: "open",
-  reportDate: "2025-05-01",
-  serverStatus: "offline",
-  playerCount: 0,
-  maxPlayers: 100,
-  serverImage: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
+  reportDate: "2025-05-01"
   },
   {
     id: "47",
@@ -661,11 +478,7 @@ export const exampleReports: ReportData[] = [
   violations: ["Code of Conduct Violation", "Breaking IP Laws"],
   reportLink: "https://docs.google.com/document/d/abc123",
   status: "open",
-  reportDate: "2025-05-01",
-  serverStatus: "offline",
-  playerCount: 0,
-  maxPlayers: 100,
-  serverImage: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
+  reportDate: "2025-05-01"
   },
   {
     id: "48",
@@ -676,10 +489,6 @@ export const exampleReports: ReportData[] = [
   reportLink: "https://docs.google.com/document/d/abc123",
   status: "open",
   reportDate: "2025-05-01",
-  serverStatus: "offline",
-  playerCount: 0,
-  maxPlayers: 100,
-  serverImage: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
   },
   {
     id: "49",
@@ -689,11 +498,7 @@ export const exampleReports: ReportData[] = [
   violations: ["Code of Conduct Violation", "Breaking IP Laws"],
   reportLink: "https://docs.google.com/document/d/abc123",
   status: "open",
-  reportDate: "2025-05-01",
-  serverStatus: "offline",
-  playerCount: 0,
-  maxPlayers: 100,
-  serverImage: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
+  reportDate: "2025-05-01"
   },
   {
     id: "50",
@@ -704,10 +509,6 @@ export const exampleReports: ReportData[] = [
   reportLink: "https://docs.google.com/document/d/abc123",
   status: "open",
   reportDate: "2025-05-01",
-  serverStatus: "offline",
-  playerCount: 0,
-  maxPlayers: 100,
-  serverImage: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
   },
   {
     id: "52",
@@ -717,11 +518,7 @@ export const exampleReports: ReportData[] = [
   violations: ["Code of Conduct Violation", "Breaking IP Laws"],
   reportLink: "https://docs.google.com/document/d/abc123",
   status: "open",
-  reportDate: "2025-05-01",
-  serverStatus: "offline",
-  playerCount: 0,
-  maxPlayers: 100,
-  serverImage: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
+  reportDate: "2025-05-01"
   },
   {
     id: "53",
@@ -731,11 +528,7 @@ export const exampleReports: ReportData[] = [
   violations: ["Code of Conduct Violation", "Breaking IP Laws"],
   reportLink: "https://docs.google.com/document/d/abc123",
   status: "open",
-  reportDate: "2025-05-01",
-  serverStatus: "offline",
-  playerCount: 0,
-  maxPlayers: 100,
-  serverImage: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
+  reportDate: "2025-05-01"
   },
   {
     id: "54",
@@ -745,11 +538,7 @@ export const exampleReports: ReportData[] = [
   violations: ["Code of Conduct Violation", "Breaking IP Laws"],
   reportLink: "https://docs.google.com/document/d/abc123",
   status: "open",
-  reportDate: "2025-05-01",
-  serverStatus: "offline",
-  playerCount: 0,
-  maxPlayers: 100,
-  serverImage: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
+  reportDate: "2025-05-01"
   },
   {
     id: "55",
@@ -759,11 +548,7 @@ export const exampleReports: ReportData[] = [
   violations: ["Breaking IP Laws"],
   reportLink: "https://docs.google.com/document/d/abc123",
   status: "open",
-  reportDate: "2025-05-01",
-  serverStatus: "offline",
-  playerCount: 0,
-  maxPlayers: 100,
-  serverImage: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
+  reportDate: "2025-05-01"
   },
   {
     id: "56",
@@ -773,11 +558,7 @@ export const exampleReports: ReportData[] = [
   violations: ["Code of Conduct Violation", "Breaking IP Laws"],
   reportLink: "https://docs.google.com/document/d/abc123",
   status: "open",
-  reportDate: "2025-05-01",
-  serverStatus: "offline",
-  playerCount: 0,
-  maxPlayers: 100,
-  serverImage: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
+  reportDate: "2025-05-01"
   },
   {
     id: "57",
@@ -787,11 +568,7 @@ export const exampleReports: ReportData[] = [
   violations: ["Code of Conduct Violation", "Breaking IP Laws"],
   reportLink: "https://docs.google.com/document/d/abc123",
   status: "open",
-  reportDate: "2025-05-01",
-  serverStatus: "offline",
-  playerCount: 0,
-  maxPlayers: 100,
-  serverImage: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
+  reportDate: "2025-05-01"
   },
   { 
     id: "58",
@@ -803,10 +580,7 @@ export const exampleReports: ReportData[] = [
       "Code of Conduct"
     ],
     status: "open",
-    reportDate: "2025-05-18",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 200
+    reportDate: "2025-05-18"
   },
   {
     id: "59",
@@ -818,10 +592,7 @@ export const exampleReports: ReportData[] = [
       "IP Infringement"
     ],
     status: "open",
-    reportDate: "2025-05-18",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 200
+    reportDate: "2025-05-18"
   },
   {
     id: "60",
@@ -833,10 +604,7 @@ export const exampleReports: ReportData[] = [
       "IP Infringement"
     ],
     status: "open",
-    reportDate: "2025-05-18",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 200
+    reportDate: "2025-05-18"
   },
   {
     id: "61",
@@ -848,10 +616,7 @@ export const exampleReports: ReportData[] = [
       "IP Infringement"
     ],
     status: "open",
-    reportDate: "2025-05-18",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 200
+    reportDate: "2025-05-18"
   },
   {
     id: "62",
@@ -863,10 +628,7 @@ export const exampleReports: ReportData[] = [
       "IP Infringement"
     ],
     status: "open",
-    reportDate: "2025-05-18",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 200
+    reportDate: "2025-05-18"
   },
   {
     id: "63",
@@ -878,10 +640,7 @@ export const exampleReports: ReportData[] = [
       "Code of Conduct"
     ],
     status: "open",
-    reportDate: "2025-05-18",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 200
+    reportDate: "2025-05-18"
   },
   {
     id: "64",
@@ -893,10 +652,7 @@ export const exampleReports: ReportData[] = [
       "Code of Conduct"
     ],
     status: "open",
-    reportDate: "2025-05-18",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 200
+    reportDate: "2025-05-18"
   },
   {
     id: "65",
@@ -908,10 +664,7 @@ export const exampleReports: ReportData[] = [
       "Code of Conduct"
     ],
     status: "open",
-    reportDate: "2025-05-18",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 200
+    reportDate: "2025-05-18"
   },
   {
     id: "66",
@@ -923,10 +676,7 @@ export const exampleReports: ReportData[] = [
       "Code of Conduct"
     ],
     status: "open",
-    reportDate: "2025-05-18",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 200
+    reportDate: "2025-05-18"
   },
   {
     id: "67",
@@ -938,10 +688,7 @@ export const exampleReports: ReportData[] = [
       "IP Infringement"
     ],
     status: "open",
-    reportDate: "2025-05-18",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 200
+    reportDate: "2025-05-18"
   },
   {
     id: "68",
@@ -953,10 +700,7 @@ export const exampleReports: ReportData[] = [
       "IP Infringement"
     ],
     status: "open",
-    reportDate: "2025-05-18",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 200
+    reportDate: "2025-05-18"
   },
   {
     id: "69",
@@ -969,9 +713,6 @@ export const exampleReports: ReportData[] = [
     ],
     status: "open",
     reportDate: "2025-05-18",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 200
   },
   {
     id: "70",
@@ -983,10 +724,7 @@ export const exampleReports: ReportData[] = [
       "IP Infringement"
     ],
     status: "open",
-    reportDate: "2025-05-18",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 200
+    reportDate: "2025-05-18"
   },
   {
     id: "71",
@@ -998,10 +736,7 @@ export const exampleReports: ReportData[] = [
       "Code of Conduct"
     ],
     status: "open",
-    reportDate: "2025-05-18",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 200
+    reportDate: "2025-05-18"
   },
   {
     id: "72",
@@ -1013,10 +748,7 @@ export const exampleReports: ReportData[] = [
       "Code of Conduct"
     ],
     status: "open",
-    reportDate: "2025-05-18",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 200
+    reportDate: "2025-05-18"
   },
   {
     id: "73",
@@ -1028,10 +760,7 @@ export const exampleReports: ReportData[] = [
       "Code of Conduct"
     ],
     status: "open",
-    reportDate: "2025-05-18",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 200
+    reportDate: "2025-05-18"
   },
   {
     id: "74",
@@ -1043,10 +772,7 @@ export const exampleReports: ReportData[] = [
       "Code of Conduct"
     ],
     status: "open",
-    reportDate: "2025-05-18",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 200
+    reportDate: "2025-05-18"
   },
   {
     id: "75",
@@ -1058,10 +784,7 @@ export const exampleReports: ReportData[] = [
       "Code of Conduct"
     ],
     status: "open",
-    reportDate: "2025-05-18",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 200
+    reportDate: "2025-05-18"
   },
   {
     id: "76",
@@ -1073,10 +796,7 @@ export const exampleReports: ReportData[] = [
       "Code of Conduct"
     ],
     status: "open",
-    reportDate: "2025-05-18",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 200
+    reportDate: "2025-05-18"
   },
   {
     id: "77",
@@ -1088,10 +808,7 @@ export const exampleReports: ReportData[] = [
       "IP Infringement"
     ],
     status: "open",
-    reportDate: "2025-05-18",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 200
+    reportDate: "2025-05-18"
   },
   {
     id: "78",
@@ -1103,10 +820,7 @@ export const exampleReports: ReportData[] = [
       "Code of Conduct"
     ],
     status: "open",
-    reportDate: "2025-05-18",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 200
+    reportDate: "2025-05-18"
   },
   {
     id: "79",
@@ -1118,10 +832,7 @@ export const exampleReports: ReportData[] = [
       "IP Infringement"
     ],
     status: "open",
-    reportDate: "2025-05-18",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 200
+    reportDate: "2025-05-18"
   },
   {
     id: "80",
@@ -1133,10 +844,7 @@ export const exampleReports: ReportData[] = [
       "IP Infringement"
     ],
     status: "open",
-    reportDate: "2025-05-18",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 200
+    reportDate: "2025-05-18"
   },
   {
     id: "81",
@@ -1148,10 +856,7 @@ export const exampleReports: ReportData[] = [
       "Code of Conduct"
     ],
     status: "open",
-    reportDate: "2025-05-18",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 200
+    reportDate: "2025-05-18"
   },
   {
     id: "82",
@@ -1163,10 +868,7 @@ export const exampleReports: ReportData[] = [
       "Code of Conduct"
     ],
     status: "open",
-    reportDate: "2025-05-18",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 200
+    reportDate: "2025-05-18"
   },
   {
     id: "83",
@@ -1178,10 +880,7 @@ export const exampleReports: ReportData[] = [
       "Code of Conduct"
     ],
     status: "open",
-    reportDate: "2025-05-18",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 200
+    reportDate: "2025-05-18"
   },
   {
     id: "84",
@@ -1193,10 +892,7 @@ export const exampleReports: ReportData[] = [
       "IP Infringement"
     ],
     status: "open",
-    reportDate: "2025-05-18",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 200
+    reportDate: "2025-05-18"
   },
   {
     id: "85",
@@ -1208,10 +904,7 @@ export const exampleReports: ReportData[] = [
       "IP Infringement"
     ],
     status: "open",
-    reportDate: "2025-05-18",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 200
+    reportDate: "2025-05-18"
   },
   {
     id: "86",
@@ -1223,10 +916,7 @@ export const exampleReports: ReportData[] = [
       "Code of Conduct"
     ],
     status: "open",
-    reportDate: "2025-05-18",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 200
+    reportDate: "2025-05-18"
   },
   {
     id: "87",
@@ -1238,10 +928,7 @@ export const exampleReports: ReportData[] = [
       "Code of Conduct"
     ],
     status: "open",
-    reportDate: "2025-05-18",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 200
+    reportDate: "2025-05-18"
   },
   {
     id: "88",
@@ -1253,10 +940,7 @@ export const exampleReports: ReportData[] = [
       "Code of Conduct"
     ],
     status: "open",
-    reportDate: "2025-05-18",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 200
+    reportDate: "2025-05-18"
   },
   {
     id: "89",
@@ -1268,10 +952,7 @@ export const exampleReports: ReportData[] = [
       "IP Infringement"
     ],
     status: "open",
-    reportDate: "2025-05-18",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 200
+    reportDate: "2025-05-18"
   },
   {
     id: "90",
@@ -1283,10 +964,7 @@ export const exampleReports: ReportData[] = [
       "IP Infringement"
     ],
     status: "open",
-    reportDate: "2025-05-18",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 200
+    reportDate: "2025-05-18"
   },
   {
     id: "91",
@@ -1298,10 +976,7 @@ export const exampleReports: ReportData[] = [
       "Code of Conduct"
     ],
     status: "open",
-    reportDate: "2025-05-18",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 200
+    reportDate: "2025-05-18"
   },
   {
     id: "92",
@@ -1313,10 +988,7 @@ export const exampleReports: ReportData[] = [
       "IP Infringement"
     ],
     status: "open",
-    reportDate: "2025-05-18",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 200
+    reportDate: "2025-05-18"
   },
   {
     id: "93",
@@ -1328,10 +1000,7 @@ export const exampleReports: ReportData[] = [
       "Code of Conduct"
     ],
     status: "open",
-    reportDate: "2025-05-18",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 200
+    reportDate: "2025-05-18"
   },
   {
     id: "94",
@@ -1343,10 +1012,7 @@ export const exampleReports: ReportData[] = [
       "Code of Conduct"
     ],
     status: "open",
-    reportDate: "2025-05-18",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 200
+    reportDate: "2025-05-18"
   },
   {
     id: "95",
@@ -1358,10 +1024,7 @@ export const exampleReports: ReportData[] = [
       "Code of Conduct"
     ],
     status: "open",
-    reportDate: "2025-05-18",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 200
+    reportDate: "2025-05-18"
   },
   {
     id: "96",
@@ -1373,10 +1036,7 @@ export const exampleReports: ReportData[] = [
       "Code of Conduct"
     ],
     status: "open",
-    reportDate: "2025-05-18",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 200
+    reportDate: "2025-05-18"
   },
   {
     id: "97",
@@ -1388,10 +1048,8 @@ export const exampleReports: ReportData[] = [
       "Code of Conduct"
     ],
     status: "open",
-    reportDate: "2025-05-18",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 200
+    reportDate: "2025-05-18"
+    
   },
   {
     id: "98",
@@ -1403,10 +1061,7 @@ export const exampleReports: ReportData[] = [
       "Code of Conduct"
     ],
     status: "open",
-    reportDate: "2025-05-18",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 200
+    reportDate: "2025-05-18"
   },
   {
     id: "99",
@@ -1418,10 +1073,7 @@ export const exampleReports: ReportData[] = [
       "Code of Conduct"
     ],
     status: "open",
-    reportDate: "2025-05-18",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 200
+    reportDate: "2025-05-18"
   },
   {
     id: "100",
@@ -1433,10 +1085,7 @@ export const exampleReports: ReportData[] = [
       "IP Infringement"
     ],
     status: "open",
-    reportDate: "2025-05-18",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 200
+    reportDate: "2025-05-18"
   },
   {
     id: "101",
@@ -1448,10 +1097,7 @@ export const exampleReports: ReportData[] = [
       "Code of Conduct"
     ],
     status: "open",
-    reportDate: "2025-05-18",
-    serverStatus: "offline",
-    playerCount: 0,
-    maxPlayers: 200
+    reportDate: "2025-05-18"
   },
 ];
 
