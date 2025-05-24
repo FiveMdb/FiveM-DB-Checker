@@ -1099,6 +1099,18 @@ export const exampleReports: ReportData[] = [
     status: "open",
     reportDate: "2025-05-18"
   },
+  {
+  "id": 102,
+  "serverName": "XLANTIS CITY V2 | Mallu Roleplay | Stable Build | India's No.1",
+  "connectionCode": "/3dby9o",
+  "ownerProfile": "https://forum.cfx.re/u/DYNAMIC6",
+  "violations": [
+    "Code of Conduct",
+    "IP Infringement"
+  ],
+  "status": "open",
+  "reportDate": "2025-05-23",
+}
 ];
 
 // Add reportDate, serverStatus, playerCount, and maxPlayers to all reports
